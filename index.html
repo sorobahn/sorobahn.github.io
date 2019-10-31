@@ -4,19 +4,16 @@
     <meta charset="utf-8">
     <title>Parth Pathak</title>
     <meta name="description" content="Do cardinals dream of ordinals?">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Raleway:300,600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
     <style type="text/css">
-     html {
-       overflow: hidden;
-     }
-
      html, head, body {
        margin: 0;
        padding: 0;
        background-color: #eeeeee;
+       overflow: hidden;
      }
 
      a {
@@ -122,11 +119,12 @@
      }
 
      @media (max-width: 950px) {
-       html {
-         overflow-y: auto;
+       html, body {
+         width: 100%;
+         overflow-y: scroll;
        }
 
-       body{
+       body {
          flex-direction: column;
        }
 
